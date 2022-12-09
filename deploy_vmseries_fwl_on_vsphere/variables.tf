@@ -92,3 +92,6 @@ variable "panorama_vm_auth_key" {
 }
 variable "pavm_authcode" {
   description = "VM-Series license auth code (Optional)"
+}
+
+
