@@ -14,7 +14,7 @@ vsphere_memory_size = "6656"
 vsphere_datastore = "hx-allnvme-ds01"
 vsphere_port_group_mgmt = "Management_OOB"
 vsphere_port_group_untrust = "WAN"
-vsphere_port_group_trust = "Trusted"
+vsphere_port_group_trust = "DMZ"
 pavm_hostname = "PA-VM-TF-01"
 #variable "pavm_ip_address" {
  # description = "VM-Series management IP address (Optional)"
