@@ -13,7 +13,7 @@ This deployment will:
 
 ### Prerequsites
 
-You need to download VM-Series ova from support.paloaltonetworks Portal. 
+You need to download VM-Series ova from CSP Portal (support.paloaltonetworks.com).
 
 Create a VM-Series template in your vCenter enviroment and name it pa-vm-template. 
 
