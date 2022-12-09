@@ -1,12 +1,12 @@
-# vCenter connection
-user = "zoran@plslab.net"
+# vCenter Info
+user = "autobot@plslab.net"
 vsphere_server = "10.2.0.3"
 password = "mysecretpass"
-# VM specifications for init-cfg
 
+# VM specifications for init-cfg
 vsphere_datacenter = "PLSLAB"
 vsphere_vm_name = "PA-VM-TF-01"
-vsphere_vm_template = "template"
+vsphere_vm_template = "pa-vm-template"
 vsphere_vm_folder = "TF-RAMA1"
 vsphere_cluster = "HX-AllNVMe-01"
 vsphere_vcpu_number = "2"
