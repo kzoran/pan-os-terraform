@@ -13,12 +13,14 @@ This deployment will:
 
 ### Prerequsites
 
-You need to create a VM-Series template in your vCenter enviroment and name it pa-vm-template
+You need to download VM-Series ova from support.paloaltonetworks Portal
+Create a VM-Series template in your vCenter enviroment and name it pa-vm-template  
+
 
 ### Instructions
 
 
-Modify terraform.tfvars to match your enviroment
+Modify terraform.tfvars to match your vSphere enviroment
 
 
 
