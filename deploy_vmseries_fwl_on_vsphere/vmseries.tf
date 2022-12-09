@@ -166,7 +166,7 @@ resource "vsphere_virtual_machine" "terraform-pa-vm" {
 
   # Customization of the VM #
   clone {
-    pa-vm-template_uuid = "${data.vsphere_virtual_machine.pa-vm-template.id}"
+    template_uuid = "${data.vsphere_virtual_machine.pa-vm-template.id}"
   }
 
   # Advanced options #
