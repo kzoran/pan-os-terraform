@@ -4,12 +4,7 @@
 resource "panos_panorama_template" "pa-vm-0_template" {
   name        = var.template
   description = "template for pa-vm-0 firewalls"
-  device {
-    serial = var.serial1
-  }
-  device {
-    serial = var.serial2
-  }
+  devices     = ["var.serial1", " var.serial2"]
   lifecycle {
     create_before_destroy = true
   }
