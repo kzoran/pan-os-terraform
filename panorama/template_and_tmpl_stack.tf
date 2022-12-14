@@ -9,9 +9,9 @@ resource "panos_panorama_template" "pa-vm-0_template" {
 
 
 
-#  device { 
-#    serial = var.serial1
-#  }
+  device { 
+    serial = var.serial1
+  }
 #  device {
 #    serial = var.serial2
 #  }
