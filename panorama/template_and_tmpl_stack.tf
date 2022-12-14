@@ -22,7 +22,7 @@ resource "panos_panorama_template" "pa-vm-0_template" {
 }
 
 
-resource "panos_panorama_template_entry" "example1" {
+resource "panos_panorama_template_entry" "pa-vm-0-template_entry" {
     template = panos_panorama_template.pa-vm-0_template.name
     serial = var.serial1
     #serial = var.serial2
