@@ -11,9 +11,22 @@ variable "password" {
   description = "password of user"
 }
 
+#######################################
+# Device Groups, Templates, Template Stack
+
 variable "device_group" {
   description = "Name of Device Group used to manage firewalls in this deployment"
 }
+
+variable "template" {
+  description = "Tempalte Name"
+}
+
+variable "stack" {
+  description = "Stack Name"
+}
+
+
 
 variable "serial1" {
   description = "firewall 1 serial number"
