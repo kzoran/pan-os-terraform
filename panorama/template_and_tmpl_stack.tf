@@ -43,7 +43,7 @@ resource "panos_panorama_template" "pa-vm-0_template" {
 resource "panos_panorama_template_stack" "pa-vm-0_stack" {
   name        = var.stack
   description = "template stack name for pa-vm-o firewalls - created with terraform"
-  templates   = var.template
+  templates   = [panos_panorama_template.var.template.name]
   devices     = ["var.serial1", " var.serial2"]
 
   lifecycle {
