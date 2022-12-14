@@ -5,6 +5,7 @@ resource "panos_virtual_router" "VR1" {
     #    panos_ethernet_interface.e1.name,
     #    panos_ethernet_interface.e2.name,
     #]
+    template                  = var.template
 
     lifecycle {
         create_before_destroy = true
