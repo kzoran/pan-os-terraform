@@ -4,11 +4,11 @@
 resource "panos_panorama_template" "pa-vm-0_template" {
   name        = var.template
   description = "template for pa-vm-0 firewalls - created with terraform"
-  device { 
-    serial = var.serial1
+  device {
+    serial = "kdkdk"
   }
   device {
-    serial = var.serial2
+    serial = "84848"
   }
 
   lifecycle {
