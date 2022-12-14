@@ -9,8 +9,8 @@ password = "Flexpod123!"
 # Device Group, template and stack info #
 
 device_group = "PA-VM-0-DG"
-template = "PA-VM-0-template"
-stack = "PA-VM-0-stack"
+template     = "PA-VM-0-template"
+stack        = "PA-VM-0-stack"
 
 #########################################
 ######### PA-VM Series info #############
