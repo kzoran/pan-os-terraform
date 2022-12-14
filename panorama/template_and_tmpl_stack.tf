@@ -29,7 +29,7 @@ serial = "007054000062810"
 }
 
 
-resource "panos_panorama_template_stack" "pa-vm-0_demo_stack" {
+resource "panos_panorama_template_stack" "pa-vm-0_stack" {
   name        = var.stack
   description = "template stack name for pa-vm-o firewalls - created with terraform"
   templates   = ["var.template"]
