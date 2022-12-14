@@ -9,9 +9,9 @@ resource "panos_panorama_template" "pa-vm-0_template" {
 
 
 
-  device { 
-    serial = var.serial1
-  }
+#  device { 
+#    serial = var.serial1
+#  }
 #  device {
 #    serial = var.serial2
 #  }
@@ -22,11 +22,11 @@ resource "panos_panorama_template" "pa-vm-0_template" {
 }
 
 
-#resource "panos_panorama_template_entry" "example_tmplentry" {
-#template = "${panos_panorama_template.pa-vm-0_template.name}"
+resource "panos_panorama_template_entry" "example_tmplentry" {
+template = "${panos_panorama_template.pa-vm-0_template.name}"
 ##serial = "007254000068426"
 #serial = "007054000062810"
-#}
+}
 #
 #
 #resource "panos_panorama_template_stack" "pa-vm-0_stack" {
