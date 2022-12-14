@@ -24,7 +24,8 @@ resource "panos_panorama_template" "pa-vm-0_template" {
 
 resource "panos_panorama_template_entry" "example1" {
     template = panos_panorama_template.pa-vm-0_template.name
-    serial = var.serial1
+    serial1 = var.serial1
+    serial2 = var.serial2
 
     lifecycle {
         create_before_destroy = true
