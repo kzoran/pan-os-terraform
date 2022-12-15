@@ -51,7 +51,7 @@ variable "eth1_vsys" {
 }
 
 variable "eth1_comment" {
-  description "ethernet1/1 comment"
+  description = "ethernet1/1 comment"
 }
 #variable "eth1_dhcp" {
 #  description = "Enable interface for DHCP client"
@@ -133,7 +133,7 @@ variable "eth8_vsys" {
 }
 
 variable "eth8_comment" {
-  description "ethernet1/1 comment"
+  description = "ethernet1/1 comment"
 }
 
 variable "eth9_name" {
@@ -149,7 +149,7 @@ variable "eth9_vsys" {
 }
 
 variable "eth9_comment" {
-  description "ethernet1/1 comment"
+  description = "ethernet1/1 comment"
 }
 #v
 
