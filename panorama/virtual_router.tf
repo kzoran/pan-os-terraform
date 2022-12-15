@@ -13,14 +13,3 @@ resource "panos_virtual_router" "VR1" {
         create_before_destroy = true
     }
 }
-
-resource "panos_panorama_ethernet_interface" "WAN" {
-    name                      = "ethernet1/1"
-    comment                   = "WAN interface"
-    vsys                      = "vsys1"
-    mode                      = "layer3"
-    enable_dhcp               = true
-    create_dhcp_default_route = true
-    #template                  = panos_panorama_template.demo_template.name
-    template                  = var.template
-}

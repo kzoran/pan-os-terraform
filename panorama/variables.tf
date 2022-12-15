@@ -36,6 +36,6 @@ variable "serial2" {
   description = "firewall 2  serial number"
 }
 
-variable "interface" {
-  description = "network interfaces"
-}
+#variable "interface" {
+#  description = "network interfaces"
+#}
