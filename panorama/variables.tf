@@ -148,6 +148,10 @@ variable "eth9_vsys" {
   description = "eth9 vsys assignment"
 }
 
+variable "eth9_comment" {
+  description "ethernet1/1 comment"
+}
+#v
 
 #variable "interface" {
 #  description = "network interfaces"
