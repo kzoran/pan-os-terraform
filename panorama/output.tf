@@ -1,3 +1,3 @@
-output "zone_untrust" {
+output "wan" {
     value = panos_panorama_zone.wan.name
 }
