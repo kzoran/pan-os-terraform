@@ -30,7 +30,17 @@ resource "panos_panorama_ethernet_interface" "ha" {
     name                      = "ethernet1/8"
     comment                   = "HA interface"
     vsys                      = "vsys1"
-    mode                      = "HA"
+    mode                      = "ha"
+#    enable_dhcp               = true
+#    create_dhcp_default_route = true
+    #template                  = panos_panorama_template.demo_template.name
+   template                  = var.template
+}
+resource "panos_panorama_ethernet_interface" "ha" {
+    name                      = "ethernet1/9"
+    comment                   = "HA interface"
+    vsys                      = "vsys1"
+    mode                      = "ha"
 #    enable_dhcp               = true
 #    create_dhcp_default_route = true
     #template                  = panos_panorama_template.demo_template.name
