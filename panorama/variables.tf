@@ -50,13 +50,16 @@ variable "eth1_vsys" {
   description = "eth1 vsys assignment"
 }
 
+variable "eth1_comment" {
+  description "ethernet1/1 comment"
+}
 #variable "eth1_dhcp" {
 #  description = "Enable interface for DHCP client"
 #}
 
-variable "eth1_default_route" {
-  description = "Accept default route"
-}
+#variable "eth1_default_route" {
+#  description = "Accept default route"
+#}
 
 variable "eth2_name" {
   description = "Name of our Ethernet 1/2 interface"
@@ -129,8 +132,8 @@ variable "eth8_vsys" {
   description = "eth8 vsys assignment"
 }
 
-variable "eth5_dhcp" {
-  description = "Enable interface for DHCP client"
+variable "eth8_comment" {
+  description "ethernet1/1 comment"
 }
 
 variable "eth9_name" {
