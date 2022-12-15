@@ -67,5 +67,7 @@ eth9_mode    = "ha"
 eth9_vsys    = "vsys1"
 eth9_comment = "HA2 Interface"
 
+#####################################
+##########  Virtual Router ##########
 
-
+vr_name = "VR1"

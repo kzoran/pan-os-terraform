@@ -154,6 +154,15 @@ variable "eth9_vsys" {
 variable "eth9_comment" {
   description = "ethernet1/1 comment"
 }
+
+##################################################
+############# Virtual Router #####################
+
+variable "vr_name" {
+  description = "Virtual Router Name"
+}
+
+
 #v
 
 #variable "interface" {
