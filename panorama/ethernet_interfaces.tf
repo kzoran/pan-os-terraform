@@ -26,9 +26,9 @@ resource "panos_panorama_ethernet_interface" "wan" {
 #    template    = panos_panorama_template.demo_template.name
 #}
 
-resource "panos_panorama_ethernet_interface" "ha" {
+resource "panos_panorama_ethernet_interface" "ha-1" {
     name                      = "ethernet1/8"
-    comment                   = "HA interface"
+    comment                   = "HA1 interface"
     vsys                      = "vsys1"
     mode                      = "ha"
 #    enable_dhcp               = true
@@ -36,9 +36,9 @@ resource "panos_panorama_ethernet_interface" "ha" {
     #template                  = panos_panorama_template.demo_template.name
    template                  = var.template
 }
-resource "panos_panorama_ethernet_interface" "ha" {
+resource "panos_panorama_ethernet_interface" "ha-2" {
     name                      = "ethernet1/9"
-    comment                   = "HA interface"
+    comment                   = "HA2 interface"
     vsys                      = "vsys1"
     mode                      = "ha"
 #    enable_dhcp               = true
