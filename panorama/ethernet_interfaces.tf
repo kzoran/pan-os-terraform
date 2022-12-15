@@ -5,6 +5,7 @@ resource "panos_panorama_ethernet_interface" "wan" {
     mode                      = "layer3"
     enable_dhcp               = true
     create_dhcp_default_route = true
+    dhcp_send_hostname_enable = true
     #template                  = panos_panorama_template.demo_template.name
     template                  = var.template
 }
