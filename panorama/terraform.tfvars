@@ -35,7 +35,7 @@ eth1_comment = "WAN Interface"
 eth2_name    = "ethernet1/2"
 eth2_mode    = "layer3"
 eth2_vsys    = "vsys1"
-eth2_ip      = "192.168.55.10/24"
+eth2_ip      = ["192.168.55.10/24"]
 eth2_comment = "Interface eth2"
 
 # Eth3 Interface
