@@ -76,6 +76,9 @@ variable "eth2_vsys" {
 variable "eth2_ip" {
   description = "Static IP assignment"
 }
+variable "eth2_comment" {
+  description = "ethernet1/1 comment"
+}
 
 variable "eth3_name" {
   description = "Name of our Ethernet 1/1 interface"
