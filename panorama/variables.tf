@@ -50,9 +50,9 @@ variable "eth1_vsys" {
   description = "eth1 vsys assignment"
 }
 
-variable "eth1_dhcp" {
-  description = "Enable interface for DHCP client"
-}
+#variable "eth1_dhcp" {
+#  description = "Enable interface for DHCP client"
+#}
 
 variable "eth1_default_route" {
   description = "Accept default route"
@@ -70,7 +70,7 @@ variable "eth2_vsys" {
   description = "eth2 vsys assignment"
 }
 
-variable "eth2_ips" {
+variable "eth2_ip" {
   description = "Static IP assignment"
 }
 
@@ -86,9 +86,10 @@ variable "eth3_vsys" {
   description = "eth3 vsys assignment"
 }
 
-variable "eth3_dhcp" {
-  description = "Enable interface for DHCP client"
-}
+#variable "eth3_dhcp" {
+#  description = "Enable interface for DHCP client"
+#}
+
 variable "eth4_name" {
   description = "Name of our Ethernet 1/1 interface"
 }
@@ -101,9 +102,10 @@ variable "eth4_vsys" {
   description = "eth4 vsys assignment"
 }
 
-variable "eth4_dhcp" {
-  description = "Enable interface for DHCP client"
-}
+#variable "eth4_dhcp" {
+#  description = "Enable interface for DHCP client"
+#}
+
 variable "eth5_name" {
   description = "Name of our Ethernet 1/1 interface"
 }
@@ -127,11 +129,6 @@ variable "eth8_vsys" {
   description = "eth8 vsys assignment"
 }
 
-variable "eth8_dhcp" {
-  description = "Enable interface for DHCP client"
-}
-
-
 variable "eth5_dhcp" {
   description = "Enable interface for DHCP client"
 }
@@ -146,10 +143,6 @@ variable "eth9_mode" {
 
 variable "eth9_vsys" {
   description = "eth9 vsys assignment"
-}
-
-variable "eth9_dhcp" {
-  description = "Enable interface for DHCP client"
 }
 
 

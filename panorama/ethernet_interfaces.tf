@@ -14,9 +14,10 @@ resource "panos_panorama_ethernet_interface" "eth2" {
     comment                   = var.eth2_comment
     vsys                      = var.eth2_vsys
     mode                      = var.eth2_mode
-    enable_dhcp               = true
-    create_dhcp_default_route = true
-    dhcp_send_hostname_enable = true
+    static_ips                = var.eth2_ip
+    #enable_dhcp               = true
+    #create_dhcp_default_route = true
+    #dhcp_send_hostname_enable = true
     template                  = var.template
 }
 
