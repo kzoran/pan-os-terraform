@@ -72,10 +72,10 @@ eth8_vsys = "vsys1"
 eth8_comment = "HA1 Interface"
 
 # HA-2 Interface
-eth8_name = "ethernet1/9"
-eth8_mode = "ha"
-eth8_vsys = "vsys1"
-eth8_comment = "HA2 Interface"
+eth9_name = "ethernet1/9"
+eth9_mode = "ha"
+eth9_vsys = "vsys1"
+eth9_comment = "HA2 Interface"
 
 
 
