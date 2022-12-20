@@ -109,7 +109,7 @@ variable "eth4_vsys" {
 }
 variable "eth4_ip" {
   description = "Static IP assignment"
-
+}
 #variable "eth4_dhcp" {
 #  description = "Enable interface for DHCP client"
 #}
