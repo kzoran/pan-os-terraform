@@ -3,7 +3,7 @@
 
 fw_ip    = "192.168.2.10"
 username = "autobot"
-password = "incorrect"
+password = "Flexpod123!"
 
 #########################################
 # Device Group, template and stack info #

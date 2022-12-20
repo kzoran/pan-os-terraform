@@ -3,7 +3,7 @@
 
 fw_ip    = "192.168.2.10"
 username = "autobot"
-password = "incorrect"
+password = "Flexpod123!"
 
 #########################################
 # Device Group, template and stack info #
@@ -35,29 +35,25 @@ eth1_comment = "WAN Interface"
 eth2_name    = "ethernet1/2"
 eth2_mode    = "layer3"
 eth2_vsys    = "vsys1"
-eth2_ip      = ["192.168.45.10/24"]
-eth2_comment = "Interface eth2 - Users"
+eth2_ip      = ["192.168.55.10/24"]
+eth2_comment = "Interface eth2"
 
 # Eth3 Interface
 eth3_name = "ethernet1/3"
 eth3_mode = "layer3"
 eth3_vsys = "vsys1"
-eth3_ip      = ["192.168.35.10/24"] 
-eth3_comment = "Interface eth3 - DAAS"
 
 # Eth5 Interface
 eth4_name = "ethernet1/4"
 eth4_mode = "layer3"
 eth4_vsys = "vsys1"
-eth4_ip      = ["192.168.25.10/24"]
-eth4_comment = "Interface eth4 Critical Infrastructure"
+
 
 # Eth5 Interface
 eth5_name = "ethernet1/5"
 eth5_mode = "layer3"
 eth5_vsys = "vsys1"
-eth5_ip      = ["192.168.15.10/24"]
-eth5_comment = " Interface eth 5 - IOT"
+
 
 # HA-1 Interface
 eth8_name    = "ethernet1/8"
