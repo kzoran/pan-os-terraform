@@ -127,6 +127,7 @@ variable "eth5_vsys" {
 }
 variable "eth5_ip" {
   description = "Static IP assignment"
+}
 
 variable "eth8_name" {
   description = "Name of our Ethernet 1/1 interface"
