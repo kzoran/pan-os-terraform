@@ -76,6 +76,7 @@ variable "eth2_vsys" {
 variable "eth2_ip" {
   description = "Static IP assignment"
 }
+
 variable "eth2_comment" {
   description = "ethernet1/1 comment"
 }
@@ -91,7 +92,9 @@ variable "eth3_mode" {
 variable "eth3_vsys" {
   description = "eth3 vsys assignment"
 }
-
+variable "eth3_ip" {
+  description = "Static IP assignment"
+}
 #variable "eth3_dhcp" {
 #  description = "Enable interface for DHCP client"
 #}
@@ -110,6 +113,10 @@ variable "eth4_vsys" {
 variable "eth4_ip" {
   description = "Static IP assignment"
 }
+variable "eth4_comment" {
+  description = "ethernet1/1 comment"
+}
+
 #variable "eth4_dhcp" {
 #  description = "Enable interface for DHCP client"
 #}
@@ -127,6 +134,10 @@ variable "eth5_vsys" {
 }
 variable "eth5_ip" {
   description = "Static IP assignment"
+}
+
+variable "eth5_comment" {
+  description = "ethernet1/1 comment"
 }
 
 variable "eth8_name" {
