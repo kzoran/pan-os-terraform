@@ -107,6 +107,8 @@ variable "eth4_mode" {
 variable "eth4_vsys" {
   description = "eth4 vsys assignment"
 }
+variable "eth4_ip" {
+  description = "Static IP assignment"
 
 #variable "eth4_dhcp" {
 #  description = "Enable interface for DHCP client"
@@ -123,6 +125,9 @@ variable "eth5_mode" {
 variable "eth5_vsys" {
   description = "eth5 vsys assignment"
 }
+variable "eth5_ip" {
+  description = "Static IP assignment"
+
 variable "eth8_name" {
   description = "Name of our Ethernet 1/1 interface"
 }
