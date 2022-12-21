@@ -94,7 +94,13 @@ variable "eth3_vsys" {
 }
 variable "eth3_ip" {
   description = "Static IP assignment"
+
 }
+
+variable "eth3_comment" {
+  description = "ethernet1/1 comment"
+}
+
 #variable "eth3_dhcp" {
 #  description = "Enable interface for DHCP client"
 #}
