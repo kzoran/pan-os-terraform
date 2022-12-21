@@ -20,7 +20,7 @@ resource "panos_virtual_router" "VR1" {
     panos_panorama_ethernet_interface.wan.name
     #    panos_ethernet_interface.e2.name,
   ]
-  #template = var.template
+  template = var.template
   #vsys     = "vsys1"
 
   lifecycle {
