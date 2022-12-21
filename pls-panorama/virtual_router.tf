@@ -18,7 +18,10 @@ resource "panos_virtual_router" "VR1" {
   #static_dist = 15
   interfaces = [
     panos_panorama_ethernet_interface.wan.name
-    #    panos_ethernet_interface.e2.name,
+    panos_panorama_ethernet_interface.Users.name,
+    panos_panorama_ethernet_interface.DAAS.name,
+    panos_panorama_ethernet_interface.CriticalInfrastructure.name,
+    panos_panorama_ethernet_interface.IOT.name
   ]
   template = var.template
   #vsys     = "vsys1"

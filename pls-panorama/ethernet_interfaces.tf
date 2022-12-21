@@ -21,6 +21,44 @@ resource "panos_panorama_ethernet_interface" "eth2" {
   template = var.template
 }
 
+resource "panos_panorama_ethernet_interface" "eth3" {
+  name       = var.eth3_name
+  comment    = var.eth3_comment
+  vsys       = var.eth3_vsys
+  mode       = var.eth3_mode
+  static_ips = var.eth3_ip
+  #enable_dhcp               = true
+  #create_dhcp_default_route = true
+  #dhcp_send_hostname_enable = true
+  template = var.template
+}
+
+resource "panos_panorama_ethernet_interface" "eth4" {
+  name       = var.eth4_name
+  comment    = var.eth4_comment
+  vsys       = var.eth4_vsys
+  mode       = var.eth4_mode
+  static_ips = var.eth4_ip
+  #enable_dhcp               = true
+  #create_dhcp_default_route = true
+  #dhcp_send_hostname_enable = true
+  template = var.template
+}
+
+resource "panos_panorama_ethernet_interface" "eth5" {
+  name       = var.eth5_name
+  comment    = var.eth5_comment
+  vsys       = var.eth5_vsys
+  mode       = var.eth5_mode
+  static_ips = var.eth5_ip
+  #enable_dhcp               = true
+  #create_dhcp_default_route = true
+  #dhcp_send_hostname_enable = true
+  template = var.template
+}
+
+
+
 #resource "panos_panorama_ethernet_interface" "web" {
 #    name        = "ethernet1/2"
 #    comment     = "web interface"
