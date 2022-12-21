@@ -9,7 +9,7 @@ resource "panos_panorama_ethernet_interface" "wan" {
   template                  = var.template
 }
 
-resource "panos_panorama_ethernet_interface" "eth2" {
+resource "panos_panorama_ethernet_interface" "Users" {
   name       = var.eth2_name
   comment    = var.eth2_comment
   vsys       = var.eth2_vsys
@@ -21,7 +21,7 @@ resource "panos_panorama_ethernet_interface" "eth2" {
   template = var.template
 }
 
-resource "panos_panorama_ethernet_interface" "eth3" {
+resource "panos_panorama_ethernet_interface" "DAAS" {
   name       = var.eth3_name
   comment    = var.eth3_comment
   vsys       = var.eth3_vsys
@@ -33,7 +33,7 @@ resource "panos_panorama_ethernet_interface" "eth3" {
   template = var.template
 }
 
-resource "panos_panorama_ethernet_interface" "eth4" {
+resource "panos_panorama_ethernet_interface" "CriticalInfrastructure" {
   name       = var.eth4_name
   comment    = var.eth4_comment
   vsys       = var.eth4_vsys
@@ -45,7 +45,7 @@ resource "panos_panorama_ethernet_interface" "eth4" {
   template = var.template
 }
 
-resource "panos_panorama_ethernet_interface" "eth5" {
+resource "panos_panorama_ethernet_interface" "IOT" {
   name       = var.eth5_name
   comment    = var.eth5_comment
   vsys       = var.eth5_vsys
