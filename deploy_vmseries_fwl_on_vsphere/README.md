@@ -17,6 +17,8 @@ You need to download VM-Series ova from CSP Portal (support.paloaltonetworks.com
 
 Create a VM-Series template in your vCenter enviroment and name it pa-vm-template. 
 
+Optional: obtain VM AuthCode from SCP Portal and if you will use Panorama, generate  VM Auth Code on Panorama
+
 
 ### Instructions
 
