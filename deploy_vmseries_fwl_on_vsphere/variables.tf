@@ -2,10 +2,14 @@
 
 variable "user" {
   description = "vSphere user name"
+  type        = string
+  sensitive   = true
 }
 
 variable "password" {
   description = "vSphere password"
+  type        = string
+  sensitive   = true
 }
 
 variable "vsphere_server" {
@@ -78,7 +82,7 @@ variable "pavm_dns_secondary" {
 }
 variable "panorama_server_ip" {
   description = "Panorama Server IP address (Optional)"
-}  
+}
 variable "panorama_server_ip_2" {
   description = "Panorama Server IP address (Optional)"
 }
