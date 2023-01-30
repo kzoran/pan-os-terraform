@@ -11,7 +11,7 @@ This deployment will:
 - Once Firewall is booted, it will be configured with basic management configuration and connected to Panorama, if Panorama server(s) are added to the tfvars file and auth-code provided
 
 ### NOTE 
-Its a bad practice to store secrets or VM Authcodes in plain text. For additional info please refer to: [Secrets.md](https://github.com/kzoran/pan-os-terraform/blob/main/secrets.md)
+Its a bad practice to store Secrets or VM Auth Codes in plain text. For additional info please refer to: [Secrets.md](https://github.com/kzoran/pan-os-terraform/blob/main/secrets.md)
 
 ### Prerequsites
 
