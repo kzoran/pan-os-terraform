@@ -20,8 +20,9 @@ user = "admin"
 password = "mypasswordisincorrect"
 ```
 
+```
 terraform apply -var-file="secret.tfvars"
-
+```
 
 #### Enviroment Variables
 ```
