@@ -1,7 +1,7 @@
 # vCenter Info
-user           = "autobot@plslab.net"
+#user           = "autobot@plslab.net"
 vsphere_server = "10.2.0.3"
-password       = "mypasswordisincorrect"
+#password       = "mypasswordisincorrect"
 
 # VM specifications for init-cfg
 vsphere_datacenter         = "PLSLAB"
