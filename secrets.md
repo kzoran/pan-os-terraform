@@ -1,6 +1,7 @@
 ## Prerequisite #1: Do Not Store Secrets in plain text
 
-## Prerequisite #2: the second rule of secret management is: DO NOT STORE SECRETS IN PLAIN TEXT!!!
+## Prerequisite #2: the second rule of secret management is: 
+DO NOT STORE SECRETS IN PLAIN TEXT!!!
 
 Its bad practice to hard-code any of your credentials in your Terraform code, even if I have it in my code sample. Depending on the project and deployoment enviroment i am using:
 - Terraform Cloud, Terraform Enterprise and HashiCorp Vault
