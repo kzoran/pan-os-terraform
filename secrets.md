@@ -18,7 +18,7 @@ official link: https://developer.hashicorp.com/terraform/tutorials/configuration
 secrets.tfvars
 ```
 user = "admin"
-password = "mypasswordisincorrect"
+password = "MyPasswordisIncorrect"
 ```
 
 ```
