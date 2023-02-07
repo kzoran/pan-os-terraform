@@ -15,17 +15,17 @@ It's a bad practice to hard-code any of your credentials in your Terraform code,
 #### Secrets with .tfvars
 official link: https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables
 
-secrets.tfvars
+secrets.auto.tfvars
 ```
 user = "admin"
-password = "MyPasswordisIncorrect"
+password = "MyP@sswordisInc0rrect"
 ```
 
 ```
-terraform apply -var-file="secret.tfvars"
+terraform apply"
 ```
 
 #### Enviroment Variables
 ```
-export TF_VAR_user=admin TF_VAR_password=mypasswordisincorrect
+export TF_VAR_user=admin TF_VAR_password=MyP@sswordisInc0rrect
 ```
