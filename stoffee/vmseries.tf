@@ -97,11 +97,17 @@ resource "local_file" "content" {
 }
 
 
-#provisioner "file" {
-#source = “../panupv2-all-contents-8808-8562”
-#destination = “bts/content/panupv2-all-contents-8808-8562"
-#}
+provisioner "file" {
+source = "../panupv2-all-contents-8808-8562"
+destination = "/bts/content/panupv2-all-contents-8808-8562"
 
+connection {
+    type     = "ssh"
+    user     = "root"
+    password = var.auth-key
+    host     = var.pavm_ip_address
+  }
+}
 #resource "null_resource" "copy-content" {
 #  provisioner "local-exec" {
 #    command = "cp panupv2-all-contents-8808-8562 /bts/content"
