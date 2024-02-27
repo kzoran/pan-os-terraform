@@ -91,10 +91,33 @@ resource "local_file" "software" {
   filename = "${path.module}/bts/software/.software"
 }
 
+
 resource "local_file" "content" {
   content  = ""
   filename = "${path.module}/bts/content/.content"
 }
+
+
+resource "null_resource" "copy-content" {
+  provisioner "local-exec" {
+    command = "ls -lFart ./; cp ./panupv2-all-contents-8808-8562 ./bts/content"
+
+  }
+}
+
+#provisioner "file" {
+#source = "../panupv2-all-contents-8808-8562"
+#destination = "bts/content/panupv2-all-contents-8808-8562"
+#
+#connection {
+#    type     = "ssh"
+##    user     = "root"
+#    password = var.auth-key
+#    host     = var.pavm_ip_address
+#  }
+#}
+
+
 
 #resource "null_resource" "mkisofs" {
 #  provisioner "local-exec" {
@@ -102,6 +125,8 @@ resource "local_file" "content" {
 #command = "apk add --no-cache cdrkit"
 #  }
 #}
+
+
 
 
 resource "null_resource" "bts" {
